@@ -15,8 +15,13 @@ Comando:
 Formatacao: 'LETRA'
 
 # Mundos que irá funcionar o armazem
+# Deixe ALL para todos
 Mundos plot:
   - 'MundoPlot'
+
+# Mundos que não irá funcionar o armazem
+# Útil se você usa o ALL no "Mundos plot"
+Mundos plot blacklist: []
 
 # Este limite serve para recolher recompensas
 # Desativar ou aumentar o limite pode gerar lag
