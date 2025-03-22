@@ -78,6 +78,9 @@ Opcoes:
   # Delay do auto-sell
   # em segundos
   AutoSell-delay: 5
+  # Delay entre vendas do auto-sell para o player
+  # em segundos
+  Player-AutoSell-delay: 5
 
 # Sistema de auto-break quando crescer um bloco
 AutoBreak:
@@ -123,6 +126,7 @@ Mensagens:
   Cancelou: '&cVocê cancelou a operação.'
   Suficiente: '&cEsta plantação não possui quantia suficiente.'
   Alterou: '&aVocê alterou o limite de venda do jogador &f{player}&a para &f{quantia}&a.'
+  AutoSell-Delay: '&c&lERRO! &cAguarde &e{time} &cpara vender plantações novamente.'
   Coletar:
     - ''
     - '&aDigite a quantia que você quer coletar.'
@@ -147,10 +151,12 @@ Mensagens:
     - '&e/armazem remove'
     - '&e/armazem givelimitevenda'
     - '&e/armazem givelimitearmazem'
+
 # Formatador de mensagens
 Formatador:
   Bonus tem: '&7Bônus: &f{bonus}%&7 ({display}&7).'
   Bonus nao tem: ''
+
 # Setas do menu
 Setas:
   Anterior:
@@ -165,6 +171,7 @@ Setas:
     Name: '&aPróxima'
     Lore:
       - '&7Clique para ir à próxima página.'
+
 # Formatos de money e quantia
 Formats:
   - ''
