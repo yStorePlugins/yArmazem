@@ -78,9 +78,11 @@ Opcoes:
   # Delay do auto-sell
   # em segundos
   AutoSell-delay: 5
-  # Delay entre vendas do auto-sell para o player
+  # Delay entre vendas do sell-all para o player
   # em segundos
-  Player-AutoSell-delay: 5
+  Player-SellAll-delay: 5
+  # Permitir o Auto-Sell nas plots de amigos e trusts
+  Auto-Sell-Friends: false
 
 # Sistema de auto-break quando crescer um bloco
 AutoBreak:
@@ -126,7 +128,7 @@ Mensagens:
   Cancelou: '&cVocê cancelou a operação.'
   Suficiente: '&cEsta plantação não possui quantia suficiente.'
   Alterou: '&aVocê alterou o limite de venda do jogador &f{player}&a para &f{quantia}&a.'
-  AutoSell-Delay: '&c&lERRO! &cAguarde &e{time} &cpara vender plantações novamente.'
+  SellAll-Delay: '&c&lERRO! &cAguarde &e{time} &cpara vender plantações novamente.'
   Coletar:
     - ''
     - '&aDigite a quantia que você quer coletar.'
