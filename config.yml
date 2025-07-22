@@ -83,6 +83,8 @@ Opcoes:
   Player-SellAll-delay: 5
   # Permitir o Auto-Sell nas plots de amigos e trusts
   Auto-Sell-Friends: false
+  # Ativar o menu da plantacao para venda e coleta
+  sell-collect-menu: false
 
 # Sistema de auto-break quando crescer um bloco
 AutoBreak:
